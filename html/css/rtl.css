@@ -1,0 +1,340 @@
+/* ================ HEADER ================ */
+.rtl header.pb {
+    left: auto
+}
+.rtl .header-content .logo,
+.rtl .header-content nav {
+    float: right;
+}
+.rtl .header-content nav {
+    padding-right: 91px;
+    padding-left: unset;
+}
+.rtl nav ul li {
+    margin-left: 56px;
+    margin-right: unset;
+}
+.rtl .right-side-hd > span {
+    margin-left: 57px;
+    margin-right: unset;
+}
+
+/* ==================== RIGHT SIDEBAR ===================== */
+.right-sidbar {
+    float: right;
+    right: 0;
+    left: unset;
+}
+.rtl .wrapper {
+    float: left !important;
+}
+.rtl .right-side-hd {
+    float: left;
+}
+.rtl .responsive-mobile-menu.show {
+    left: 0;
+    right: auto;
+}
+
+/* ================ MAIN BANNER ================ */
+.rtl .main-banner-text > span:before {
+    right: 0;
+    left: auto;
+}
+.rtl .main-banner-text > span {
+    padding-right: 86px;
+    padding-left: unset;
+}
+[dir="rtl"] .slick-prev::before,
+[dir="rtl"] .slick-next::before {
+    content: '' !important;
+}
+.rtl .banner-slider .slick-prev {
+    left: 200px;
+    right: auto;
+    padding-left: 60px;
+}
+.rtl .banner-slider .slick-next {
+    left: 150px;
+    right: auto;
+    padding-right: 10px;
+}
+
+/* Start About us Section in Main Banner */
+
+.rtl .page-number {
+    left: 100px;
+    right: unset;
+}
+
+.rtl .expt-text {
+    float: left !important;
+}
+
+.rtl .btn-default2 img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* End About us Section in Main Banner */
+
+/* Start Services Section in Main Banner */
+.rtl .services-section .slick-prev{
+    right: auto;
+    left: 25px;
+    padding-left: 60px;
+}
+.rtl .services-section .slick-next {
+    padding-right: 10px;
+}
+/* End Services Section in Main Banner */
+
+/* Start Why Choose Us Section in Main Banner */
+.rtl .our-features-list li {
+    padding-right: 45px;
+    padding-left: unset;
+}
+.rtl .our-features-list li:before {
+    right: 0;
+    left: unset;
+}
+/* End Why Choose Us Section in Main Banner */
+
+/* Start PORTFOLIO Section in Main Banner */
+.rtl .portfolio-head .main-banner-text.title-hd {
+    float: right;
+}
+.rtl .portfolio-head > .btn-default2 {
+    float: left;
+}
+.rtl .figcaption a img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+/* End PORTFOLIO Section in Main Banner */
+
+/* Start Blog Section in Main Banner */
+.rtl .blog_info.main-page {
+    padding-right: 35px;
+    padding-left: unset;
+}
+.rtl .meta li {
+    margin-left: 15px;
+    margin-right: unset;
+}
+.rtl .blog-rtl.main {
+    margin-right: 112px;
+    margin-left: unset;
+}
+/* End Blog Section in Main Banner */
+
+/* ======================= FOOTER ========================= */
+
+.rtl .top-footer .main-banner-text {
+    padding-left: 110px;
+    padding-right: unset;
+}
+.rtl .newsletter-form input {
+    float: right;
+}
+.rtl .newsletter-form button {
+    float: right;
+    margin-right: 44px;
+    margin-left: unset;
+}
+.rtl .testi-info {
+    padding-right: 48px;
+    padding-left: unset;
+}
+.rtl .testimonial-sec > p:before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left: 5px;
+    right: unset;
+}
+.rtl .widget-para > p {
+    padding-right: 0px;
+    padding-left: 90px;
+}
+
+/* =============== SERVICES PAGE =============== */
+.rtl .pager-sec ul li:before {
+    left: 100%;
+    right: unset;
+    margin-left: -5px;
+    margin-right: unset;
+}
+.rtl .pager-sec ul li:last-child {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+/* =============== SERVICE DETAILS PAGE =============== */
+.rtl .widget-newslettter form button {
+    left: 0;
+    right: unset;
+}
+.rtl .widget-newslettter form button img {
+    float: left;
+}
+.rtl .lang-slct li:first-child {
+    padding-right: 0px;
+    padding-left: 19px;
+}
+.rtl .lang-slct li:before {
+    left: -4px;
+    right: unset;
+}
+.rtl .sv-links li {
+    padding-right: 30px;
+    padding-left: unset;
+}
+.rtl .sv-links li:before {
+    right: 0;
+    left: unset;
+}
+
+/* ==================== CASE PAGE =================== */
+.rtl .filters-nav li {
+    margin-left: 36px;
+    margin-right: unset;
+}
+.rtl .team-caption > a img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* ==================== CASE Work PAGE =================== */
+.rtl .cz-controls .prev-button {
+	float: right;
+}
+.rtl .cz-controls .next-button {
+	float: left;
+}
+.rtl .mg-list li > h3 {
+    margin-left: 10px;
+    margin-right: unset;
+}
+.rtl .case-share-btn img{
+    margin-right: 22px;
+    margin-left: unset;
+}
+
+/* ==================== BLOG PAGE =================== */
+.rtl .blog-page .blog_info > a img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* ==================== SINGLE BLOG PAGE =================== */
+.rtl .blog-single {
+    padding-left: 50px;
+    padding-right: unset;
+}
+.rtl .blog-single .blog-post.main p {
+    padding-left: 100px;
+    padding-right: unset;
+}
+.rtl .blog-single blockquote:before {
+    left: 55px;
+    right: unset;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.rtl .post-share-options a.blog-share-btn img{
+    margin-left: 11px;
+    margin-right: unset;
+}
+.rtl .post-share-options ul {
+	float: left;
+}
+.rtl .author-info {
+    padding-right: 30px;
+    padding-left: unset;
+}
+.rtl .next-blog-rtl {
+    text-align: left !important;
+}
+.post-ct > a {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.rtl .post-ct.text-right > a {
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.rtl .comments-section ul ul {
+    padding-right: 50px;
+    padding-left: unset;
+}
+.rtl .reply {
+    left: 0;
+    right: unset;
+}
+.rtl .cm-head > img {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.rtl .cm-head > h3 {
+    padding-left: 19px;
+    padding-right: unset;
+}
+.rtl .cm-head > span:before {
+    right: 0;
+    left: unset;
+}
+.rtl .cm-head > span {
+    padding-right: 27px;
+    padding-left: unset;
+}
+.rtl .widget-search form button {
+    left: 0;
+    right: unset;
+}
+.rtl .rb-post-info {
+    padding-right: 30px;
+    padding-left: unset;
+}
+
+/* ==================== CONTACT US PAGE =================== */
+.rtl .contact-lzt {
+    padding: 40px 40px 40px 20px;
+}
+.rtl .contact-nfo {
+    padding-right: 40px;
+    padding-left: unset;
+}
+
+/* ==================== ABOUT PAGE =================== */
+.rtl .working-day {
+    padding-right: 100px;
+    padding-left: 0;
+}
+.rtl .individual {
+    padding-left: 100px;
+    padding-right: 0;
+}
+
+/* Start Add Edit On Mobil */
+header .menu-btn {
+    float: left;
+}
+
+@media (max-width: 1200px) {
+    .banner-slider .slick-prev {
+        left: 100px !important;
+        right: unset !important;
+    }
+    .banner-slider .slick-next {
+        left: 50px !important;
+        right: unset !important;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: auto;
+    }
+}
+
+/* End Add Edit On Mobil */
